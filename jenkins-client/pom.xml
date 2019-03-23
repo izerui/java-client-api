@@ -18,6 +18,11 @@
   <name>Jenkins API client for Java :: The Client.</name>
 
   <dependencies>
+    <dependency>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+      <scope>provided</scope>
+    </dependency>
     <!-- Marshalling -->
     <dependency>
       <groupId>com.fasterxml.jackson.core</groupId>
